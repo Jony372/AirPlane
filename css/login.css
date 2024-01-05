@@ -1,0 +1,44 @@
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: none;
+    scrollbar-color: #3a7ca5 #81c3d7;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #81c3d7;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #3a7ca5;
+    border-radius: 10px;
+    border: 0px none #3a7ca5;
+  }
+body{
+    background-color: #d9dcd6;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.login, .signup{
+    background-color: #81c3d7;
+    padding: 80px;
+    width: 80%;
+    border-radius: 10%;
+}
+
+.esconder {
+    display: none;
+}
+
+#si {
+    overflow: auto;
+
+}
